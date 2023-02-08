@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class exe1 {
+
+	public static void main(String[] args) {
+		// FACA UM PROGRAMA QUE PEÇA UMA NOTA ENTRE ZERO E 10
+		//MOSTRE UMA MENSAGEM CASO O VALOR SEJA INVALIDO 
+		//E CONTINUE PEDINDO ATE QUE O USUARIO DIGITE O VALOR CERTO
+		
+		
+		Scanner ler = new Scanner (System.in);
+		
+		int nota; 
+		
+		
+		System.out.println("Digite uma nota entre 0 e 10: ");
+		nota=ler.nextInt();
+		
+		
+		if (nota == 0 || nota <= 10 ) {
+			System.out.println("parabéns você acertou");
+		}
+		else {
+			System.out.println("Digite de novo");
+		}
+		
+		
+			
+
+		
+
+	}
+
+}
