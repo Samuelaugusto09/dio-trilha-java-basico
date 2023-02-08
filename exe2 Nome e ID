@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class exe2 {
+
+	public static void main(String[] args) {
+		// FAÇA UM PROGRAMA QUE LEIA UM CONJUNTO DE DOIS VALORES 
+		// O PRIMEIRO REPRESENTANDO O NOME DO ALUNO E O SEGUNDO REPRESENTANDO SUA IDADE 
+		// PARE O PROGRAMA INSERINDO O VALOR 0 NO CAMPO NOME 
+		
+		Scanner ler = new Scanner (System.in);
+		
+		String nome;
+		int idade;
+		
+		while (true) {
+			System.out.println("Nome:");
+			nome=ler.next();
+			if (nome.equals("0")) break;
+			
+			System.out.println("Idade:");
+			idade = ler.nextInt();
+			
+		}
+		
+		System.out.println("Continua aqui...");
+		
+		
+		
+		
+
+	}
+
+}
