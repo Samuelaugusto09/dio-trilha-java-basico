@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class exe5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// DESENVOLVA UM GERADOR DE TABUADA 
+		//CAPAZ DE GERAR A TABUADA DE QUALQUER NUMERO INTEIRO 
+		//O USUARIO DEVE INFORMAR O NUMERO QUE ELE DESEJA VER A TABUADA
+		//A SAÍDA DEVE SER CONFORME O EXEMPLO ABAIXO
+		
+		
+		Scanner ler = new Scanner (System.in);
+		
+		int tabuada;
+		
+		
+		System.out.println("Tabuada:");
+		tabuada=ler.nextInt();
+		
+		System.out.println("Tabuada de " + tabuada);
+		
+		
+		for (int i = 1 ; i <= 10; i++) {
+			
+			System.out.println(tabuada + "X" + i + " = " + (tabuada*1));
+			
+		}
+		
+		
+		
+
+	}
+
+}
