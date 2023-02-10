@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class exefatorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner ler = new Scanner (System.in);
+		
+		int fatorial;
+		
+		System.out.println("Fatorial: ");
+		fatorial=ler.nextInt();
+		
+		int multiplicacao = 1; 
+		
+		System.out.println(fatorial + "! = ");
+		for (int i = fatorial ; i >= 1; i--) {
+			multiplicacao = multiplicacao * i;
+		}
+		
+		System.out.println(multiplicacao);
+		
+	    
+		
+		
+		
+		
+
+	}
+
+}
