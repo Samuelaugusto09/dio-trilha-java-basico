@@ -1,0 +1,59 @@
+
+public class carro
+{
+
+		
+		
+		class Carro {
+			
+			String cor;
+			String modelo;
+			
+			
+			
+			int capacidadeTanque;
+			int valorCombustivel;
+			
+			Carro(String cor, String modelo, int capacidadeTanque){
+				this.cor = cor;
+				this.modelo= modelo;
+				this.capacidadeTanque = capacidadeTanque;
+				
+			}
+			
+			void setCar (String Car) {
+				
+				this.cor = cor;
+				
+			}
+			
+			String getCar() {
+				return cor;
+			}
+			
+			void setModelo (String Modelo) {
+				this.modelo = modelo;
+				
+			}
+			
+			String getModelo() {
+				return modelo;
+				
+			}
+			
+			void setCapacidadeTanque(int capacidadeTanque) {
+				this.capacidadeTanque = capacidadeTanque;
+				
+				
+			}
+			
+			int getCapacidadeTanque (double valorCombusivel) {
+				
+				return capacidadeTanque = valorCombustivel; 
+				
+			}
+			
+			
+		}
+
+	}
