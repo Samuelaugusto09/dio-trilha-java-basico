@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        font-size: 10px;
+        text-align: center;
+    }
+    body{
+        border: solid;
+        width: 100%;
+    }
+
+
+
+    header
+    {
+        background-color: orange;
+        text-align: center;
+        border-style: solid;
+        width: 100%;
+        
+        
+        
+    }
+    nav
+    {
+        background-color: rgb(28, 243, 28);
+        text-align: left;
+        border-style: solid;
+        float: left;
+        width: 250px;
+        height: 900px;
+    }
+    article
+    {
+        background-color: yellow;
+        border-style: solid;
+        float: left;
+        width: 745px;
+        height: 900px;
+        text-align: center;
+        
+    }
+
+    aside
+    {
+        background-color: red;
+        text-align: left;
+        border-style: solid;
+        float: left;
+        width: 250px;
+        height: 900px;
+        
+        
+
+        
+    }
+    footer
+    {
+        background-color: rgb(12, 12, 12);
+        text-align: center;
+        border-style:solid;
+        color: white;
+        clear: both;
+    
+    }
+</style>
+<body>
+     <main>
+        <header>
+        <h1>Cabeçalho</h1>
+        </header>    
+        <nav>
+        <h1>Menu </h1>
+        </nav>    
+        <article>
+        <h1>Principal</h1>
+        </article>
+        <aside>
+            <h1>Lateral</h1>
+        </aside>  
+         
+        <footer>
+        <h1>Rodapé</h1>
+        </footer>   
+        </main>
+</body>
+</html>
