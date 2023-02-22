@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercício Formulários</h1>
+    <p>1) Desenvolva um formulário de cadastro com as seguintes características.</p>
+    <form>
+        <td>
+        <input type="text" name="nome" id="nome" placeholder="nome" size="90"><br><br>
+        <input type="text" name="nome completo" id="nome completo" placeholder="nome completo" size=" 90" > <br><br>
+        <input type="text" name="CPF" id="CPF" placeholder="CPF" size="90" > <br><br>
+        <input type="text" name="E-mail" id="E-mail" placeholder="E-mail" size="90" ><br><br>
+        <input type="text" name="WebSite" id="WebSite" placeholder="WebSite" size="90" ><br><br>
+        <input type="text" name="Endereço" id="Endereço" placeholder="Endereço" size="90"> <br><br>
+        <input type="text" name="Bairro" id="Bairro" placeholder="Bairro" size="35" > <input type="text" name="Cidade" id="Cidade" placeholder="Cidade" size="35"> <br><br>
+        <input type="number" name="Cep" id="nome" placeholder="Cep" > UF <select id="estado" name="estado"> 
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro </option>
+        </select> <br><br>
+        <input type="number" name="Telefone" id="Telefone" placeholder="Telefone" > <input type="number" name="Fax" id="Fax" placeholder="Fax" size="35"> <br><br>
+        <input type="number" name="Data de nascimento" id="Data de nascimento" placeholder="Data de nascimento"> Sexo <input type="radio"> M <input type="radio"> F <br><br>
+        <input type="number" name="Celular" id="Celular" placeholder="Celular" > Est.Civil <select id="Estado Civil"name= "Estado Civil" >
+            <option value="Solteiro">Solteiro</option>
+            <option value="Casado">Casado</option>
+            <option value="Namorando">Namorando</option>
+            <option value="Separado">Separado</option>
+            <br><br>
+        </select> <br><br>
+    
+        <input type="text" name="Login" id="Login" placeholder="Login" > <input type="text" name= Senha placeholder="Senha"><br><br>
+
+    <p> Deseja receber informações sobre os seguintes assuntos a baixo :</p> <br><br> 
+        <input type="checkbox"> Tecnologia
+        <input type="checkbox"> Esportes
+        <input type="checkbox"> Automoveis
+        <input type="checkbox"> Culinaria
+        <input type="checkbox"> Politica
+        <input type="checkbox"> Policial
+        <input type="checkbox"> Tempo<br><br>
+        <input type="checkbox"> Cultura
+        <input type="checkbox"> Economia
+        <input type="checkbox"> Jogos
+        <input type="checkbox"> Educação 
+        <input type="checkbox"> Viagem 
+        <input type="checkbox"> Empregos
+        <input type="checkbox"> Moda e estilo <br><br>
+        <input type="checkbox"> Li as regras de cadastro e autorio a criação do usúario. <br><br>
+
+        
+    
+            <button type="submit">Confirmar</button>
+            <button type="submit">Enviar</button>
+        
+            
+        
+    </form>
+</body>
+</html
