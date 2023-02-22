@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imgs{
+            width: 500px;
+            height: 500px;
+        }
+
+        #fruta{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <img class="imgs" src="https://st.depositphotos.com/2105931/4442/v/950/depositphotos_44426839-stock-illustration-pear-icon.jpg" alt="">
+            <p id="sucesso"></p>
+            <form>
+                <fieldset>
+                    <p>Qual nome da fruta?</p>
+                    <input id="teste" type="text">
+                    <button id="btn-teste">Tentar</button>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <div id="fruta" class="imgs"></div>
+            <form>
+                <fieldset>
+                    <p>Qual sua fruta favorita?</p>
+                    <input type="text" id="favorito">
+                    <button id="btn-pegar">Pegar</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="horario">
+            <p id="sauds"></p>
+        </div>
+    </main>
+    <script>        
+            const btn = document.querySelector("#btn-teste")  
+            btn.addEventListener("click", (event) =>{
+                const teste = document.querySelector("#teste").value 
+                const pera = "pera"
+                const sucesso = document.querySelector("#sucesso")
+                event.preventDefault()
+                if(teste == pera){
+               sucesso.innerHTML ="Parabéns você acertou"
+
+                } else{
+                    sucesso.innerHTML = "Que pena você errou"
+                }
+            })
+            const btnPegar = document.querySelector("#btn-pegar")
+            btnPegar.addEventListener("click", (event) => {
+                event.preventDefault()
+                const frutas = {
+                maca: "https://trimais.vteximg.com.br/arquivos/ids/1039824-1000-1000/foto_original.jpg?v=638010864173000000",
+
+                pera: "https://www.emporiodasfrutasam.com.br/data/produto/l/47-113.jpg",
+
+                banana: "https://www.infoescola.com/wp-content/uploads/2010/04/banana_600797891.jpg",
+                }
+
+                const favorito = document.querySelector("#favorito").value
+                const imgFruta = document.querySelector("#fruta")
+                imgFruta.style.backgroundImage = `url('${frutas[favorito]}')`
+            })
+            
+            const d = new Date();
+            let hour = d.getHours();
+            const sauds = document.querySelector("#sauds")
+            const horario = document.querySelector(".horario")
+            console.log(hour)
+
+            if (hour < 12) {
+                sauds.innerHTML ="Bom dia" 
+            } else if(hour > 12 && hour < 18) {
+                sauds.innerHTML ="Boa tarde" 
+
+            } else if (hour >= 18) {
+                sauds.innerHTML ="Bom noite" 
+            }
+
+        
+    </script>
+</body>
+</html>
