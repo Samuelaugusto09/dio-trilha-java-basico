@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Layout RWD</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+        
+    </head>
+    <style>
+        html{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+       .topbar
+       {
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 3px ;
+        
+       
+       }
+       .menu{
+        display: flex;
+       }
+       .menu li{
+        list-style: none;
+        padding: 10px 15px;
+
+       }
+       .menu li a {
+        text-decoration: a;
+        color: black;
+        
+       }
+       .menu li a:hover{
+        text-decoration: underline;
+       }
+       .principal
+       {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        max-width: 800px;
+        margin: auto;
+        gap: 30px;
+        padding: 60px;
+    
+
+       }
+       header
+       {
+        grid-column: 2/3;
+        text-align: center;
+        color: #9217FE;
+       }
+       .principal__perfil
+       {
+        border: 2px solid (190,190,190);
+        grid-column: 1/2;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: top;
+        text-align: center;
+        border-style: ridge;
+        height: 300px;
+       }
+       .principal__perfil img
+       {
+        margin: auto;
+
+       }
+       .principal__conteudo h1
+       {
+        font-size: 2.2rem;
+       }
+       .principal__conteudo p
+       {
+        margin: 30px 0;
+       }
+       .principal__conteudo img
+       {
+        width: 100%;
+       }
+       footer{
+
+       
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;    
+        padding: 20px 0;   
+        color: #9217FE; 
+        border-top: 3px solid rgb(190, 190, 190);
+            }
+            
+            @media screen and (max-width: 800px) {
+
+              .principal
+              {
+              display: block;
+              }
+              header
+              {
+                grid-column: 1;
+                display: none;
+
+              }
+              .principal__perfil
+              {
+                width: 150px;
+                margin: auto;
+                padding: 30px 10px;
+                gap: 50px;
+              }
+              .principal__conteudo
+              {
+                grid-column: 1;
+              }
+              footer
+              {
+                position: static;
+              }
+            }
+              @media screen and (max-width: 500px) {
+                .menu
+                {
+                    display: none;
+                }
+                .principal__perfil
+                {
+                    display: none;
+                }
+              }
+
+            
+            
+  
+    </style>
+
+    <body>    
+        <nav class="topbar">
+            <a href="#"> <img src="https://lh6.googleusercontent.com/Ft-2_VE_Frx_Pb3l1HoGjpdrSKcicvFeVgAGXneSL9HuFTTQBg2fGMMWrK8TvY2i20Bkl1doVVK16So=w1280-h913" alt="logo mulheres em tech"> 
+            </a>
+    
+            <ul class="menu">
+                <li class="menu__item"><a href="#">Home</a></li>
+                <li class="menu__item"><a href="#">Blog</a></li>
+                <li class="menu__item"><a href="#">Contato</a></li>                       
+            </ul>
+        </nav>
+        
+        <section class="principal">
+            <header>
+                <h3>BLOG POST</h3>
+                <img src="/ProjetoCSS/imagens/" alt="">
+            </header>
+    
+            <aside class="principal__perfil">
+                <img src="https://lh5.googleusercontent.com/uD3QH6gnvemZS6LrJEZo-f9qxTr_LbDbm6T4Sa7kJTRF0SlNfin-ZmPocRgK7DQrHGkz5Oul-gEiRe8=w1280-h913" alt="foto da rafaella">
+                <h4>Camila Dias</h4>
+                <p>correspondente do reprograma</p>
+            </aside>
+    
+            <main class="principal__conteudo">
+                <h1>Mulheres incríveis estão se superando no mercado Tech</h1>
+                <h2>Ao todo, somos apresentados a 30 mulheres, que tornaram a sua luta peça fundamental na construção do mundo. O projeto conseguiu aqui reunir variadas faixas etárias e diferentes áreas de atuação.</h2>
+                <img src="https://lh6.googleusercontent.com/ycCGh9TK8OCKH7FHY7Gi4J7WvmpTvaPPyBF1sV2J9naNIGRWSUdfiK_pgJQfj_XzpswxlvVLJv_jlvo=w1280-h913" alt="foto da turma reprograma">
+            </main>
+        </section>
+        <footer>
+            Copyright 2022
+        </footer>    
+        </body>
+    </html>
