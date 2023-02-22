@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova IPW.</title>
+    <meta charset="utf8"> 
+</head>
+<header>
+    
+    <img src="https://img.freepik.com/vetores-gratis/fundo-abstrato-gradiente-monocromatico_52683-74300.jpg?w=360"  height="150" width="100%" >
+
+</header>
+<body style="background-color: rgb(113, 228, 113);">
+    <hr>
+    <h1 ALIGN="CENTER"> Bem vindo a ViaVentop.net</h1>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#Planos">Planos</a></li>
+        <li><a href="#Informações">Informações</a></li>
+        <li><a href="#Clientes">Cliente</a></li>
+        <li><a href="#contato">Contatos</a></li>
+
+    </ul><hr>
+    <h1 id="sobre">Quem somos</h1>
+    <p>A ViaVento é uma empresa provedora de serviços de internet com
+        fibra óptica. Nossa prioridade é fornecer internet de qualidade e
+        infraestrutura impecável para nossos região, buscando proporcionar
+        ao nosso cliente uma experiência satisfatória. Trabalhamos
+        constantemente para aumentar nossa rede de cobertura e contribuir
+        para o processo de inclusão digital.</p><br>
+    <h1> Nossa Equipe</h1>    
+    <p>Nossa equipe é composta de profissionais muito bem capacitados
+        para demanda de nossos clientes. Nossos colaboradores passam por
+        constantes reciclagens visando aumentar o conhecimento e levar
+        satisfação aos nossos clientes.</p><br>
+    <h1>Vantagens da Fibra Óptica</h1>   
+    <p>A internet fibra óptica irá oferecer uma conexão mais estável se você
+        usá-la com o cabo do modem conectado ao computador. Porém,
+        quando falamos de internet via wireless (wi-fi), tanto na fibra óptica
+        quanto na internet a cabo, existe uma perda considerável na
+        velocidade contratada. Afinal, quando usamos a internet via Wifi, a
+        luz é convertida em ondas de rádio novamente, o que faz com que
+        boa parte da vantagem da fibra óptica acabe sendo perdida.</p><br>
+        <ul>
+            <li><a href="#prncipal">Principal</a></li>
+        </ul><hr>
+        <section id="Planos"></section>
+    <h1>Planos</h1><br>
+    <img src="https://www.crisnet.com.br/arquivos_publicos/150.png" width="300"><br>
+    <b>150 Mega</b> 
+    <ul>
+        <li>Download 50MB</li>
+        <li>Upload 150MB</li>
+        <li>Wifi Grátis</li>
+        <li>Fibra Óptica</li>
+    </ul><br>
+    <b>250 Mega</b>
+    <ul>
+        <li>Download 100MB</li>
+        <li>Upload 250MB</li>
+        <li>Wifi Grátis</li>
+        <li>Fibra Óptica</li>
+    </ul><br>
+    <b>500 Mega</b> 
+    <ul>
+        <li>Download 300MB</li>
+        <li>Upload 500MB</li>
+        <li>Wifi Grátis</li>
+        <li>Fibra Óptica</li>
+    </ul><br>
+    <ul>
+        <li><a href="#prncipal">Principal</a></li>
+    </ul><hr>
+    <section id="Informações"></section>
+    <h1>Informações</h1>
+
+    <h1>FAQ</h1><br>
+    <img src="http://www.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgem-ct/destaques-1/faq-ppgem-perguntas-frequentes/howtobuildfaqsection750x400.jpg/@@images/06f4861e-16da-4095-b0e5-5dccc578a03f.jpeg">
+    <h2>O que é velocidade de Download?</h2>
+    <p>É a velocidade de recebimento de dados (como um arquivo, vídeo,
+        etc) de outro computador ou servidor para um computador local
+        através da Internet. Usuários domésticos tendem a realizar mais
+        downloads do que uploads.</p><br>
+     <h2>O que é velocidade de Upload?</h2> 
+     <p>É a velocidade de envio de dados (como um arquivo, e-mail, foto,
+        etc) de um computador em um local para um computador ou servidor
+        em outro local, através da Internet. A velocidade de upload é
+        geralmente muito menor do que a velocidade de download. A razão
+        para isso é que as pessoas, ao acessar a Internet, geralmente fazem
+        mais download do que upload.</p><br>
+     <h1>Preciso possuir telefone fixo para contratar a ViaVento?</h1><br>
+     <p>Para contratação dos nossos planos de internet não é necessário
+        possuir telefone fixo, nossas redes são de Fibra Óptica ponta a ponta,
+        ou seja, desde nossos canais de distribuição até a casa do cliente, o
+        que torna a utilização do telefone fixo não obrigatória.</p>
+
+
+
+
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADp6enk5OQEBAS6urr8/Pz4+PhRUVFsbGzHx8dCQkKtra2ZmZmEhIRmZmapqanQ0NDX19ejo6Pc3Nzv7+8bGxsmJiZ1dXXNzc0uLi5HR0e2trZYWFjBwcGXl5cXFxd6enqOjo43NzcqKioPDw9NTU1fX1+AgICHdb65AAAImElEQVR4nO2daXvyKhCGUVtTtdW6xNe6Ve3m//+F57i1AYaBTIYAXnk+upDcYQgwDIMQkjrTxdPyq1W3vj42x+dceFdnuKydrajVi1/IfBgU76zd1CPga2i6i3ZjX4D70Gi/evbCl21CcxU09EEYE2Cr1eMH3IdmUjTiBnwOTaSJuRbz0DyAFqyEEfSDujhrsRMaBhYjYpRV2OI01A+l5P220/atfF284kc+eQb6Ky5ExUhXNYzw/1e/eM2B9slFTJ3GVAbkKdQqnVDkcw2Rpy3upTLbLGXaBRCK9j8/hio1gD1HiS6CCH3VojTp3TIU6CSQEEJkaIuSy2JWvTw3wYQi1w21ei1KxXUqF+coAyHUFisjPkRF6KMtRkbooS3GRsjfFqMjZO8X4yOEDPWlwrUiJIQQ+/RrxUgo8k8NkT6ejJIQqEV6U4yTUGQaInm8FSmh3mn8UK8VK6GOSJ2bR0uotUXqgka8hCLbSYQb4rUiJhQzuRKJ14qZULy3GO4uakLZEUhcPI2asCs5c4kjt6gJxVPxd4+0a0VAuFw/G/T4cR+ErmoIDWoI/aghbAjLqCH0o8ndEwrdJ3pvhGsTxt0Qit7dE4rD3ROK9rQ3sqg3T5rQRZu7J0x3fuiqhtBFDWFYNYQuagjDqiF0UUMYVnUQdv2KizB7PD59tlq7wWiqQqCE7SFlLl5GiwkDYXctjdA/D1JoCka49Yx3Fhru5ES4VbcbtFqHwqI/Qjj2zHYVtm/UgTBfgaX+rfqbCbv6o/EjJMjCTmishqOdkOTTpOi9AiGy726T2QjLO1KI+qYTTk1lnrSxEda2IYq+BowC3vbbplyHFsDr6ybhdmgFvLzEkHdpXRkWkNBRjNAB8GynSH/4xsphFLE/dAE8EwUf0yA2ihG6AZ4q0TIu1SOuedUjjksBwNV0MntcKB8urXOLbuZV1LkFALi+VspA/riT5vwQAPyzBRlxmiQhAFiI6mtLXyxSJMQBlW2xTwkS2gDFY/GrZXqEaBs8Swot/kqO0FqDypRxnhqhnuxpp/Wo0kMYJEYIjWS0KYfUXfykRQin61rL/5EDWQ4pEW5NLgupFhXHzTYlQnM2qwKiGk+WpUSI6NdQVdfbxjbynhx6DHohPzlXwhuiFhH4jBN2f1wvYNNRv3lewouhaoDLLkqY6XtVyXryTXiqRT2m88SNEBKC68xCp/IchK1HHfDspzQTMqfIsk12SxK+6B/peVfbOCFQRhWRMsMYCcfyDALWm8AJmX3epC2gJsLTWNSKeL1ikoSX2YQF8ealNBMyp1N84yO8TZdQxN+VVzMhcz5FCiBM+DcfRBD/lpaR3oL1VUMLpIAIi/NBI2LBkY6NaRg7xAMJUHzrJSE+GRAQH5c6us6teiCGwgDzQbU5g4hS9INlbtE3be8sI2p+ZwefDPgjea0n4tkTUIM6ILC/SFnMipfQwURBQDVAJ1pCLsBoCZ3aoN1ERbSETG3wpDgJ2UxUREpIrUEwCjBGQlbAGAk5TVTESMgMGB8hr4mK+AjZAW2Es351vZV4cNwmaiPcMoW2DfC4IK+AKCGjL+qVCljRRHFC1uODXJI8OdXgTP8Rnt3UTJixnt31zx+gZcHATEhJe4DI2hR9tEGckDkK2uYR9tIGccJ6fd5+2iBO+K4XV0W4uw0A1N9N5dsgTgiUV0VZSUAeE0UJBdsa90noWWNQv6RVIclEccL2g14mVR9YFcIdr4JIM1GcUORs+xE25QEVRGoN2kbe295qUFmrBbqyZh46FRCJbdBOWIOwZcrflXF6DYYnxLetXGtxpr8R3GM7QhMOtHvXEavUYHBC607cflXA0IT2oWEfiOspFX4UmFC9d4C4Shs8KSyhaqRvLnO2ksd5hCVUquzUb1qDXMqeVxKWUE7ZcOkbLIilQwCDEspGejsSCEUsH+MYlPAIVKFA/SeEI3VCEso7jXd/o3NjLVKiVEMSysPp4tFcBkRS3BFKmE1ZcmOsDD4a+U0qBaCChkqLM8YISblwQX2A1iGf0CF/B3j6iJFjCCGno2YOJDCB36TXa+/0MvizKMGJX4gCTodDjBR8uOyEzAl49EqUvy9GusPNg52Q2ee9Vq8sP8G/M7m64yHsAmMn9O3zlsu/dffjo3EfS+x1qBLK3f3lTTQ+mv7thZA5K4baX6hGmo2HluU8dsKMNVeblkhINtL3od03y99bOOxKcZe6fEjIfuMhqyDjMre2CkHoi3zkTZyMWFa65ws9jRDhTe0nM2TeYRCUco7woNLK7kkZMKVF6GakrwlnnXfJzrTcJpyD1sFIF/1uyll2LSPCh951LpUuIRYiMO9tf2dS6RKaE0As+sUF8XQJRyY8Zcd3uoTAkHfXA8IX0yXsKtPcuWycv0qXUPbEGPBE0oRicuvze1gqgpQJT2nGV9979dWiKGlCJzWELmoIw6ohdFFDGFYNoYsawrBqCF3UEIZVpITt1xdXvSJnzJwUJWFeLvfSAmWMkbBd9qyBfxhijITlw8SQY2ZiJKSsGyNujAgJKfvdgHCpmyIkpCR1pZ+G5KSGsKTMCxJmjczFRUhI2eKO3HmEhAKIC7XoEyktRsLy2YeRA62iJBSdck3xBwOMk1CIyfvQVe8zvKhICRnVELqoIQyrhtBFrbsnlAJILe/u+iXlgiZl5hdiyVCGN2XS3bkk0wIkjUD2vDdYWfLeGaKF7aVC0CFU/ZJDpyyeR5PkfL0r3jusKDmS/otYijIXWBEflA8pef3RLEWYVPfffttpR6C3F3VDBun4iJNqO367qqiA3AfmeBNxj2w6lThHs6HhYj6LxJPc0oMaxHygjBdV7Mb2oe/frgo2ehbFj1urKk8JssgRiWNuSfvQEIj+8UxbWZMGs2pDOpMOUB5nv/hNHqwB6jjsNq5ZI6LnAoGcLp6WrDmgqZoPRgfjJoUy+g9vY6YEZnEb9QAAAABJRU5ErkJggg==" width="30"><br>
+        <a href="arquivos/Contrato.pdf" download="Contrato.pdf">
+            Baixe o contrato</a>
+
+
+        <ul>
+            <li><a href="#principal">Principal</a></li>
+        </ul><hr>
+        <section id="Clientes"></section>
+        <h1>Cliente</h1>
+        <table>
+            <border>
+                <a href="https://www.vivo.com.br/">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnbhGXmpuardt0lUeDdPpLfkIgNS5t09zKzH92ruIFA&s">
+                </a>
+                <a href="https://www.oi.com.br/">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsF2m2sOwg349qk1Kt4I4ngrrcw4qx8fXCOi3pXsWCCg&s">
+                </a>
+                <a href="https://www.tim.com.br/">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOIupYE0-cdWmZuVujXTbZSZ_FMaeo9dj9yBfQa9z88w&s">
+                </a>
+                <a href="https://www.claro.com.br/">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRja3L3jQ9DyThdVSGCqvQ4oW8BREbjuPvoce_lwxM5w&s">
+                    
+                </a>
+                <ul>
+                    <li><a href="#principal">Principal</a></li>
+                </ul><hr>
+        
+        
+    </border>
+    </table> <hr><hr>
+    <h1 id="contato">Contato</h1>
+    <img src="https://www.websnap.com.br/wp-content/uploads/2019/03/entre-em-contato-agencia-marketing-digitalpng.png"> 
+    
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text"size="50"><br><br>
+        <label for="E-mail"size="35">E-mail</label>
+        <input type="email"><br><br>
+        <label for="Fone">Fone</label>
+        <input type="number"><br><br>
+        <label for="Mensagem">Mensagem</label><br><br>
+        <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+        <input type="button" value="Enviar">
+        <input type="reset" value="Apagar">
+    </form>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGue52R_wnY50WrvqhsWGdrLoJqYNKUsT2P_cG7QaY1g&s"><a href="Tel:31971823376">31971823376</a>
+    <h2>Endereço rua cobre 200</h2>
+    <ul>
+        <li><a href="#principal">Principal</a></li>
+    </ul><hr>
+    <footer>Samuel Barbosa <br>samuelaugusto09@hotmail.com <br> 1a267005284</footer>
+
+
+        
+    
+      
+
+    
+
+</body>
+</html>
