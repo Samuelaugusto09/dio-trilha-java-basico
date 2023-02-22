@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    img{
+        width: 100%;
+
+    }
+    .imgs{
+        max-width: 500px;
+        margin: 30px auto;
+    }
+    header{
+        text-align: center;
+        padding: 50px 0;
+
+    }
+    h2{
+        text-align: justify;
+    }
+    main{
+        display:inline-flex;
+    }
+    p{
+        margin: 20px 0;
+        text-align: justify;
+
+    }
+    .link{
+        display: block;
+        color: black;
+        text-align: center;
+
+    }
+    .campo-noticia{
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+
+    }
+    .manha{
+        background-color: yellow;
+        border-style: ridge;
+        height: 800px;
+        display: inline-block;
+        
+
+    }
+    .tarde{
+        background-color: green;
+        border-style: ridge;
+        float: right;
+        height: 800px;
+        
+    }
+    .noite{
+        background-color: red;
+        border-style: ridge;
+        height: 800px;
+    }
+    .area-btns{
+        text-align: center;
+    }
+    #hora{
+        display: none;
+    }
+    footer{
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    @media screen and (max-width: 800px) {
+
+.main
+{
+display: block;
+}
+header
+{
+  grid-column: 1;
+  display: none;
+
+}
+.campo-noticia
+{
+  width: 150px;
+  margin: auto;
+  padding: 30px 10px;
+  gap: 50px;
+}
+.manha
+{
+  grid-column: 1;
+}
+footer
+{
+  position: static;
+}
+}
+@media screen and (max-width: 500px) {
+  .main
+  {
+      display: none;
+  }
+  .h2
+  {
+      display: none;
+  }
+}
+</style>
+<body>
+    <header>
+        <h1 class="cumprimento"> São Paulo dos Noticiarios </h1>
+    </header>
+    <main>
+        <section class="campo-noticia manha">
+            <h2 class="titulo">Goleiros da Suíça treinam com óculos para ver em câmera lenta</h2>
+            <div class="imgs">
+                <img src="https://tm.ibxk.com.br/2022/11/28/28080908031054.jpg?ims=1120x420" alt="">
+            </div>
+        <article>
+            <p>
+                O Brasil precisa ter uma atenção extra em campo nesta segunda-feira (28), diante da Suíça, pela 2ª rodada da fase de grupos da Copa do Mundo Qatar-2022. Para ter reflexos melhores, os goleiros da equipe europeia, o titular Yann Sommer e o reserva Gregor Kobel, treinam com óculos especiais, que ajudam a ver em câmera lenta.
+            </p>
+            <p>O acessório é usado para melhorar o reflexo dos atletas e pode ser também uma ferramenta de ajuda a crianças e idosos. Desenvolvidos pela Visionup, empresa japonesa, os óculos de fato foram pensados para o esporte, mas servem também para pessoas que desejam "recuperar ou manter habilidades de visão que diminuíram com o envelhecimento"</p>
+        </article>
+        <a href="https://www.tecmundo.com.br/mercado/255039-goleiros-suica-treinam-oculos-ver-
+        camera-lenta.htm"></a>
+        </section>
+        <section class="campo-noticia tarde">
+            <h2 class="titulo">Testamos o app Lensa, “febre” do momento que usa IA para recriar suas fotos</h2>
+            <div class="imgs">
+                <img src="https://img.olhardigital.com.br/wp-content/uploads/2022/12/lensa_nick_andre_cor_2.jpg" alt="">
+            </div>
+            <article>
+                <p>O Lensa foi criado pela Prisma Labs, que vários anos atrás, fez muito sucesso com o Prisma, um app que usava IA para colocar um estilo artístico nas fotos e até vídeos dos usuários. Além disso, vale destacar que o Lensa em si também não é um app novo, e sim bem antigo, já que foi lançado em 2018.</p>
+                <p>Mas, se antes o Lensa era um app comum que fazia retoques em selfies dos usuários, uma atualização recente trouxe o recurso Magic Avatars (Avatares Mágicos). Como o nome diz, essa função cria avatares de diferentes estilos usando inteligência artificial, que muitos usuários estão usando como avatares em suas redes sociais como Twitter e Koo, entre muitas outras.</p>
+            </article>
+            <a href="https://olhardigital.com.br/2022/12/01/reviews/testamos-o-app-lensa-febre-do-
+            momento-que-usa-ia-para-recriar-suas-fotos/"></a>
+        </section>
+        <section class="campo-noticia noite">
+            <h2 class="titulo"> Escassez de talentos segue como principal desafio para empresas em 2023</h2>
+            <div class="imgs">
+                <img src="https://www.securityreport.com.br/wp-content/uploads/2020/08/2634.jpg" alt="">
+            </div>
+            <article>
+                <p>Flexibilidade, qualidade de vida, novas competências para líderes, contratação por habilidades e experiências, e trabalho temporário, são algumas das principais tendências apontadas pela Randstad para 2023. A consultoria global, reúne sua expertise e capilaridade para prenunciar demandas do setor de RH e antever os principais desafios das empresas frente ao atual comportamento dos talentos neste próximo ano.</p>
+                <p>Fabio Battaglia, CEO da Randstad no Brasil, afirma que, por conta dessa escassez de talentos, as empresas têm buscado alternativas como a contratação por habilidades e experiências e não olhando apenas para o diploma: “Com a urgente demanda de profissionais com conhecimentos específicos e com pouca mão de obra que atende a esses requisitos, as empresas têm avaliado os candidatos por suas vivências”, comenta Battaglia.
+                </p>
+            </article>
+            <a href="https://www.securityreport.com.br/overview/escassez-de-talentos-segue-como-
+            principal-desafio-para-empresas-em-2023/"></a>
+        </section>
+        <div class="area-btns">
+            <button class="btn" id="todas">Todas as noticias</button>
+            <button class="btn" id="hora">Noticias do Horario</button>
+        </div>
+    </main>
+    <footer>
+        Desenvolvido por Samuel Augusto
+    </footer>
+    <script>
+        const btnTodas = document.querySelector("#todas")
+        const btnHora = document.querySelector("#hora")
+
+        function pegaHorario(hora){
+            document.querySelector("main").classList.remove("tres")
+            document.querySelector("#todas").style.display = "inline"
+            document.querySelector("#hora").style.display = "none"
+            if (hora < 12) {
+                manha()
+            }
+            else if (hora >12 && hora < 18){
+                tarde()
+            }
+            else if (hora >18){
+                noite()
+            }
+
+        }
+        pegaHorario(Hora)
+
+        function manha (){
+            const color= yellow 
+            document.querySelector("h1").innerHTML ="Bom dia"
+            document.querySelector(".tarde").style.display ="none"
+            document.querySelector(".noite").style.display ="none"
+            document.querySelector("header").style.backgroundColor = color
+            document.querySelector("footer").style.backgroundColor= color
+            document.querySelector(".area-btns").style.backgroundColor = color
+            document.querySelector("main").style.backgroundColor = color
+        }
+        function tarde (){
+            const color= green 
+            document.querySelector("h1").innerHTML ="Boa tarde"
+            document.querySelector(".manha").style.display ="none"
+            document.querySelector(".noite").style.display ="none"
+            document.querySelector("header").style.backgroundColor = color
+            document.querySelector("footer").style.backgroundColor= color
+            document.querySelector(".area-btns").style.backgroundColor = color
+            document.querySelector("main").style.backgroundColor = color
+
+
+        }
+        function noite (){
+            const color= red
+            document.querySelector("h1").innerHTML ="Boa noite"
+            document.querySelector(".manha").style.display ="none"
+            document.querySelector(".tarde").style.display ="none"
+            document.querySelector("header").style.backgroundColor = color
+            document.querySelector("footer").style.backgroundColor= color
+            document.querySelector(".area-btns").style.backgroundColor = color
+            document.querySelector("main").style.backgroundColor = color
+        } 
+        function monstraTodas () {
+            const color = black
+            document.querySelector("h1").innerHTML= "Todas as Noticias"
+            document.querySelector(".campo-noticia").forEach((section) =>{
+                section.style.display = "block"
+            })
+            document.querySelector("main").classList.add("tres")
+            document.querySelector("#todas").style.display = "none"
+            document.querySelector("#hora").style.display = "inline"
+            document.querySelector("header").style.background = color
+            document.querySelector("footer").style.background = color
+            document.querySelector("main").style.background = color
+            document.querySelector(".area-btns").style.backgroundColor = color
+        } 
+        btnTodas.addEventListener("click",monstraTodas)
+        btnHora.addEventListener("click", ()=>{ 
+            pegaHorario(hora)
+        })
+    </script>
+
+</body>
+</html>
